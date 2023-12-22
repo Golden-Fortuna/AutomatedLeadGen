@@ -3611,3 +3611,39 @@ JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't
 1703274303770	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
 console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703276333301	geckodriver	INFO	Listening on 127.0.0.1:49952
+1703276333314	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileBV7Lt2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703276334154	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703276334662	Marionette	INFO	Listening on port 49958
+Read port: 49958
+WebDriver BiDi listening on ws://127.0.0.1:49953
+1703276334892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49953/devtools/browser/70040ec9-85e5-439d-8d7b-c17bcf37e86e
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/yn/l/en_US/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 276: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:276:113
+
+1703276355629	Marionette	INFO	Stopped listening on port 64084
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1703276753840	geckodriver	INFO	Listening on 127.0.0.1:50032
+1703276753852	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileoNVLsm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703276754701	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703276755231	Marionette	INFO	Listening on port 50038
+Read port: 50038
+WebDriver BiDi listening on ws://127.0.0.1:50033
+1703276755458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50033/devtools/browser/34a9f29e-06ff-42db-ab4f-cfa1881090b4
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/yn/l/en_US/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/yn/l/en_US/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

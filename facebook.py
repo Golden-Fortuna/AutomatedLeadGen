@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 from threading import Thread
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -19,20 +20,48 @@ class AutomationApp:
     def __init__(self, master):
         self.master = master
         master.title("Facebook Automation")
-        tk.Label(master, text="Email:").grid(row=0)
-        self.email_entry = tk.Entry(master)
-        self.email_entry.grid(row=0, column=1)
-        tk.Label(master, text="Password:").grid(row=1)
-        self.password_entry = tk.Entry(master, show="*")
-        self.password_entry.grid(row=1, column=1)
-        tk.Label(master, text="Message:").grid(row=2)
-        self.message_text = tk.Text(master, height=10, width=50)
-        self.message_text.grid(row=2, column=1)
-        self.start_button = tk.Button(master, text="Start Automation", command=self.start_automation)
-        self.start_button.grid(row=3, column=1)
-        self.status_label = tk.Label(master, text="", fg="green")
-        self.status_label.grid(row=4, column=1)
-    
+        master.configure(bg='#2C2F33')  # Dark grey background
+
+        style = ttk.Style()
+        style.theme_use('alt')
+        style.configure('TNotebook', background='#2C2F33', borderwidth=0)
+        style.configure('TNotebook.Tab', background='#2C2F33', foreground='#FFF', padding=[10, 5], borderwidth=0)
+        style.map('TNotebook.Tab', background=[('selected', '#23272A'), ('active', '#2C2F33')], foreground=[('selected', '#FFF'), ('active', '#AAA')])
+        style.configure('TFrame', background='#2C2F33')
+        style.configure('TButton', background='#23272A', foreground='#FFF', borderwidth=0)
+        style.configure('TLabel', background='#2C2F33', foreground='#FFF', font=('Helvetica', 10))
+        style.configure('TEntry', fieldbackground='#23272A', foreground='#FFF', borderwidth=0)
+        style.map('TEntry', fieldbackground=[('focus', '#23272A')], foreground=[('focus', '#FFF')])
+
+        tabControl = ttk.Notebook(master)
+        tab1 = ttk.Frame(tabControl)
+        tabControl.add(tab1, text='Automation')
+        tab2 = ttk.Frame(tabControl)
+        tabControl.add(tab2, text='Dashboard')
+        tabControl.pack(expand=1, fill="both", padx=10, pady=10)
+
+        self.create_automation_tab(tab1)
+        self.create_dashboard_tab(tab2)
+
+    def create_automation_tab(self, tab):
+        ttk.Label(tab, text="Email:").grid(row=0, column=0, sticky='e', padx=(10, 0), pady=(10, 10))
+        self.email_text = tk.Text(tab,height=1, width=50, bg='#23272A', fg='#FFF', borderwidth=0, insertbackground='#FFF')
+        self.email_text.grid(row=0, column=1, padx=(0, 10), pady=(10, 10), sticky='ew')
+        ttk.Label(tab, text="Password:").grid(row=1, column=0, sticky='e', padx=(10, 0), pady=(0, 10))
+        self.password_text = tk.Text(tab,height=1, width=50, bg='#23272A', fg='#FFF', borderwidth=0, insertbackground='#FFF')
+        self.password_text.grid(row=1, column=1, padx=(0, 10), pady=(0, 10), sticky='ew')
+        ttk.Label(tab, text="Message:").grid(row=2, column=0, sticky='ne', padx=(10, 0), pady=(0, 10))
+        self.message_text = tk.Text(tab, height=10, width=50, bg='#23272A', fg='#FFF', borderwidth=0, insertbackground='#FFF')
+        self.message_text.grid(row=2, column=1, padx=(0, 10), pady=(0, 10), sticky='ew')
+        self.start_button = ttk.Button(tab, text="Start Automation", command=self.start_automation)
+        self.start_button.grid(row=3, column=1, padx=(0, 10), pady=(0, 10), sticky='ew')
+        self.status_label = ttk.Label(tab, text="", foreground='#32CD32')  # Lime green for visibility
+        self.status_label.grid(row=4, column=1, padx=(0, 10), pady=(0, 10), sticky='ew')
+
+    def create_dashboard_tab(self, tab):
+        self.dashboard_label = ttk.Label(tab, text="Dashboard will be updated here")
+        self.dashboard_label.pack(pady=(10, 10))
+
     def send_msgs(self,driver,message):
         try:
             time.sleep(3)
@@ -106,8 +135,8 @@ class AutomationApp:
         return messages_sent
 
     def start_automation(self):
-        email = self.email_entry.get()
-        password = self.password_entry.get()
+        email = self.email_text.get("1.0", tk.END)
+        password = self.password_text.get("1.0", tk.END)
         message = self.message_text.get("1.0", tk.END)
         self.start_button.config(state="disabled")
         messages_sent = self.run_automation(email, password, message)
