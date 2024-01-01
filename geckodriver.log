@@ -21,3 +21,475 @@ console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError
 1703284408714	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileqrKv3T"
 1703284584819	geckodriver	INFO	Listening on 127.0.0.1:49705
 1703284584833	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileMuV5xg"
+1703286141623	geckodriver	INFO	Listening on 127.0.0.1:49779
+1703286141814	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileBQIEto"
+1703286188755	geckodriver	INFO	Listening on 127.0.0.1:49793
+1703286189288	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile4DikKn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703286190007	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703286190451	Marionette	INFO	Listening on port 49799
+Read port: 49799
+WebDriver BiDi listening on ws://127.0.0.1:49794
+1703286190656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49794/devtools/browser/9dee4d69-a2de-4e65-bb6f-07258d28a6f6
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/yn/l/en_US/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 276: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:276:113
+
+1703287415978	geckodriver	INFO	Listening on 127.0.0.1:49878
+1703287416498	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileksczVj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703287416944	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703287417318	Marionette	INFO	Listening on port 49885
+WebDriver BiDi listening on ws://127.0.0.1:49879
+Read port: 49885
+1703287417556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49879/devtools/browser/fb7b433d-d487-4232-b399-0c212af76fcf
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/yn/l/en_US/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i4O94/ya/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Q.js?_nc_x=lS7eBLXP2u4, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1703287446996	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703287587209	Marionette	INFO	Stopped listening on port 49885
+1703453257818	geckodriver	INFO	Listening on 127.0.0.1:54436
+1703453257869	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofilenwFhhN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703453258419	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703453258868	Marionette	INFO	Listening on port 54441
+Read port: 54441
+WebDriver BiDi listening on ws://127.0.0.1:54437
+1703453259016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54437/devtools/browser/afb410cf-012f-4add-b96e-653a5535c7bd
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703453289948	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703453698008	geckodriver	INFO	Listening on 127.0.0.1:54512
+1703453698531	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileb3r09E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703453698855	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703453699118	Marionette	INFO	Listening on port 54518
+WebDriver BiDi listening on ws://127.0.0.1:54513
+Read port: 54518
+1703453699311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54513/devtools/browser/112abdcd-2b21-4e4d-9e72-812fd7a009f4
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703453728896	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703453733059	geckodriver	INFO	Listening on 127.0.0.1:54547
+1703453733592	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofiledER2hz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703453733918	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703453734205	Marionette	INFO	Listening on port 54553
+WebDriver BiDi listening on ws://127.0.0.1:54548
+Read port: 54553
+1703453734399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54548/devtools/browser/5fb6bf31-f2be-40da-b9a2-58897010484d
+1703453764283	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703453840609	geckodriver	INFO	Listening on 127.0.0.1:54597
+1703453841132	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofilerFSN6I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703453841463	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703453841733	Marionette	INFO	Listening on port 54603
+WebDriver BiDi listening on ws://127.0.0.1:54598
+Read port: 54603
+1703453841928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54598/devtools/browser/e30f855d-a08a-42e3-8c90-7ee490fe7b46
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703453873998	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703453894167	Marionette	INFO	Stopped listening on port 54518
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703453895317	Marionette	INFO	Stopped listening on port 54553
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703453896929	Marionette	INFO	Stopped listening on port 54603
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703453899978	Marionette	INFO	Stopped listening on port 54441
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703453949874	geckodriver	INFO	Listening on 127.0.0.1:54643
+1703453950396	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofilejr20mU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703453950721	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703453950975	Marionette	INFO	Listening on port 54649
+WebDriver BiDi listening on ws://127.0.0.1:54644
+Read port: 54649
+1703453951170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54644/devtools/browser/8f74bcc4-7642-4d43-a365-915fbb8ebdf7
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703453980771	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703454006692	geckodriver	INFO	Listening on 127.0.0.1:54696
+1703454007215	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile2QU8ZS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703454007535	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703454007802	Marionette	INFO	Listening on port 54702
+WebDriver BiDi listening on ws://127.0.0.1:54697
+Read port: 54702
+1703454007996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54697/devtools/browser/53b83de9-e991-457f-a339-2a8d8b52d1fa
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703454021897	geckodriver	INFO	Listening on 127.0.0.1:54731
+1703454022419	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile4Oe2S0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703454022738	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703454023012	Marionette	INFO	Listening on port 54738
+WebDriver BiDi listening on ws://127.0.0.1:54732
+Read port: 54738
+1703454023210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54732/devtools/browser/c04c30f1-d443-436b-82a5-9fdf18400a9a
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703454039226	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703454041250	Marionette	INFO	Stopped listening on port 54738
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703454042448	Marionette	INFO	Stopped listening on port 54702
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703454043712	Marionette	INFO	Stopped listening on port 54649
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1703548862605	geckodriver	INFO	Listening on 127.0.0.1:59378
+1703548862660	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileqlJS6E"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703548863452	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703548863918	Marionette	INFO	Listening on port 59383
+Read port: 59383
+WebDriver BiDi listening on ws://127.0.0.1:59379
+1703548864129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59379/devtools/browser/d47530e3-1016-4b00-91fb-0fd4799fd7fb
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703548893491	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703549046111	geckodriver	INFO	Listening on 127.0.0.1:59427
+1703549046637	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileHdRaqg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703549047177	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703549047624	Marionette	INFO	Listening on port 59433
+Read port: 59433
+WebDriver BiDi listening on ws://127.0.0.1:59428
+1703549047820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59428/devtools/browser/5b7ed565-d141-4587-aa39-dc0c02036057
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703549058853	geckodriver	INFO	Listening on 127.0.0.1:59462
+1703549059381	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile9EWxkq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703549059891	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703549060313	Marionette	INFO	Listening on port 59468
+Read port: 59468
+WebDriver BiDi listening on ws://127.0.0.1:59463
+1703549060513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 645: TypeError: this.browsingContext is null
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 645: TypeError: this.browsingContext is null
+JavaScript error: resource:///modules/BrowserGlue.sys.mjs, line 5508: TypeError: win is null
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703549200976	geckodriver	INFO	Listening on 127.0.0.1:59510
+1703549201502	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileYHWvIW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703549202145	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703549202633	Marionette	INFO	Listening on port 59516
+Read port: 59516
+WebDriver BiDi listening on ws://127.0.0.1:59511
+1703549202839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59511/devtools/browser/59a623e5-8506-4846-859b-1ed36b16f0b2
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703549232183	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1703549233268	Marionette	INFO	Stopped listening on port 59516
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp, line 436: Script terminated by timeout at:
+a@https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp:436:414
+T@https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp:439:9569
+e@https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp:439:13528
+value@https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp:439:12620
+a/W/<@https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp:439:13014
+a/runExclusively/</a<@https://static.xx.fbcdn.net/rsrc.php/v3iy1z4/yS/l/makehaste_jhash/DB-eQPTpKqywB_Mlmt-DlfezmN1KY6RhTYvj2hrnXi8T0s1c9jOL4OsATQ--pvMuUFqz8lBLYKwMdiokDTVdB-2YTTYrV0RkiCwrXtF7EA0EuzdytMbrJB-1V2tkDFLACclhOah917Fm1-Bf3Akky_jVpe2KmWNsQabfYvGlBdUYifA3l-DZvdseSQ56fmiw25PHPEIN5JZ9qPL5yeKBwdbDd9OAhAXdbMmNrTWqhdiINB_HQXWm4vqjDTTboj8Ne5m4oEILC3CZ79uNst1104ZGOz0lSUC7K04LKhOrwFtuhX0mSFxO3_N7ftkEs-R.js?_nc_x=oQ3o7sk-cOp:440:2682
+h@https://static.xx.fbcdn.net/rsrc.php/v3i_nh4/yA/l/makehaste_jhash/tO7Z7e3CxmFTUCp3EGOEbgBH7rryjXYkAurNoavtnSlKvp9JFZ7sbUhNNXrnaMB3hN6369Q8L-sE7p7nZKPhT6koROr5gAHQ2AuTtR9qBsufDreW7Mj0J5sZwCQtKeRfmcadDUZY2cgooGByN_PJ7dEO-puiEYL196iikWS7naxUByE_St0PsQpjKNg9gLMplADpnvhxrGZDdspZHX25He4BiLcgfi2cuZtXAaBeDAjfBbVMRTAMceEJ4mSlPShNnZ67iiYqkP2SMQe1vRQPLWxjcglmNarPLShgKX7xG9lDiey1l9HSATMxp9sbUOge9COMMAHpJ-.js?_nc_x=oQ3o7sk-cOp:204:125
+g@https://static.xx.fbcdn.net/rsrc.php/v3i_nh4/yA/l/makehaste_jhash/tO7Z7e3CxmFTUCp3EGOEbgBH7rryjXYkAurNoavtnSlKvp9JFZ7sbUhNNXrnaMB3hN6369Q8L-sE7p7nZKPhT6koROr5gAHQ2AuTtR9qBsufDreW7Mj0J5sZwCQtKeRfmcadDUZY2cgooGByN_PJ7dEO-puiEYL196iikWS7naxUByE_St0PsQpjKNg9gLMplADpnvhxrGZDdspZHX25He4BiLcgfi2cuZtXAaBeDAjfBbVMRTAMceEJ4mSlPShNnZ67iiYqkP2SMQe1vRQPLWxjcglmNarPLShgKX7xG9lDiey1l9HSATMxp9sbUOge9COMMAHpJ-.js?_nc_x=oQ3o7sk-cOp:204:350
+a/</<@https://static.xx.fbcdn.net/rsrc.php/v3i_nh4/yA/l/makehaste_jhash/tO7Z7e3CxmFTUCp3EGOEbgBH7rryjXYkAurNoavtnSlKvp9JFZ7sbUhNNXrnaMB3hN6369Q8L-sE7p7nZKPhT6koROr5gAHQ2AuTtR9qBsufDreW7Mj0J5sZwCQtKeRfmcadDUZY2cgooGByN_PJ7dEO-puiEYL196iikWS7naxUByE_St0PsQpjKNg9gLMplADpnvhxrGZDdspZHX25He4BiLcgfi2cuZtXAaBeDAjfBbVMRTAMceEJ4mSlPShNnZ67iiYqkP2SMQe1vRQPLWxjcglmNarPLShgKX7xG9lDiey1l9HSATMxp9sbUOge9COMMAHpJ-.js?_nc_x=oQ3o7sk-cOp:204:409
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3i_nh4/yA/l/makehaste_jhash/tO7Z7e3CxmFTUCp3EGOEbgBH7rryjXYkAurNoavtnSlKvp9JFZ7sbUhNNXrnaMB3hN6369Q8L-sE7p7nZKPhT6koROr5gAHQ2AuTtR9qBsufDreW7Mj0J5sZwCQtKeRfmcadDUZY2cgooGByN_PJ7dEO-puiEYL196iikWS7naxUByE_St0PsQpjKNg9gLMplADpnvhxrGZDdspZHX25He4BiLcgfi2cuZtXAaBeDAjfBbVMRTAMceEJ4mSlPShNnZ67iiYqkP2SMQe1vRQPLWxjcglmNarPLShgKX7xG9lDiey1l9HSATMxp9sbUOge9COMMAHpJ-.js?_nc_x=oQ3o7sk-cOp:204:277
+
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/partitioning-exempt-urls sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/translations-identification-models getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1703549298937	geckodriver	INFO	Listening on 127.0.0.1:59577
+1703549299466	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileGZxzYQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703549299971	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703549300392	Marionette	INFO	Listening on port 59583
+Read port: 59583
+WebDriver BiDi listening on ws://127.0.0.1:59578
+1703549300592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59578/devtools/browser/0f453174-2a76-4caf-862e-39a32aeb0779
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703549330011	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703549716757	Marionette	INFO	Stopped listening on port 59583
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1703549751426	geckodriver	INFO	Listening on 127.0.0.1:59699
+1703549751954	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileVe0W74"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703549752471	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703549752898	Marionette	INFO	Listening on port 59705
+Read port: 59705
+WebDriver BiDi listening on ws://127.0.0.1:59700
+1703549753098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59700/devtools/browser/37ffc0c4-700b-4712-a47a-c9fddd41af2b
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703549782492	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703549811347	Marionette	INFO	Stopped listening on port 59705
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1703549815274	geckodriver	INFO	Listening on 127.0.0.1:59766
+1703549815787	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile0vwCz1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703549816219	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703549816605	Marionette	INFO	Listening on port 59772
+Read port: 59772
+WebDriver BiDi listening on ws://127.0.0.1:59767
+1703549816791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59767/devtools/browser/190e9fd2-9cd9-440b-9762-267d16bddf4b
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703549846250	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703550086582	Marionette	INFO	Stopped listening on port 59772
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1703550090478	geckodriver	INFO	Listening on 127.0.0.1:59849
+1703550090999	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofilePWAH3n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703550091535	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703550092026	Marionette	INFO	Listening on port 59856
+Read port: 59856
+WebDriver BiDi listening on ws://127.0.0.1:59850
+1703550092223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59850/devtools/browser/db40684f-2800-4417-96e7-0e04b09bb8b2
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703550121569	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703550626842	Marionette	INFO	Stopped listening on port 59856
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1703550666237	geckodriver	INFO	Listening on 127.0.0.1:59978
+1703550666764	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileS8QoH1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703550667275	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703550667706	Marionette	INFO	Listening on port 59984
+Read port: 59984
+WebDriver BiDi listening on ws://127.0.0.1:59979
+1703550667901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59979/devtools/browser/39f16330-e06b-42cc-a7f0-19ca5b82ec60
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703550697314	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1703550758776	Marionette	INFO	Stopped listening on port 59984
+1703551496702	geckodriver	INFO	Listening on 127.0.0.1:60116
+1703551497224	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileey1YXz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703551497901	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703551498299	Marionette	INFO	Listening on port 60122
+Read port: 60122
+WebDriver BiDi listening on ws://127.0.0.1:60117
+1703551498506	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60117/devtools/browser/07f9a9ab-b396-45fc-b64b-49c1bb7f08dc
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 276: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:276:113
+
+1703551518495	Marionette	INFO	Stopped listening on port 60122
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1703551542587	geckodriver	INFO	Listening on 127.0.0.1:60170
+1703551543107	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofilehBR32T"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703551543787	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703551544180	Marionette	INFO	Listening on port 60176
+Read port: 60176
+WebDriver BiDi listening on ws://127.0.0.1:60171
+1703551544386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60171/devtools/browser/d641814f-4197-4696-b5cb-d98d18155c86
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/y2/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz8QzCmgjCKdL.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703551573807	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703551619804	Marionette	INFO	Stopped listening on port 60176
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1703554983218	geckodriver	INFO	Listening on 127.0.0.1:60547
+1703554983750	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile7P4ujd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703554984500	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703554984978	Marionette	INFO	Listening on port 60554
+Read port: 60554
+WebDriver BiDi listening on ws://127.0.0.1:60548
+1703554985196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60548/devtools/browser/2dc1608d-9e21-482b-8820-8ea22d7eda61
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703555014563	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703555075564	Marionette	INFO	Stopped listening on port 60554
+1703556048355	geckodriver	INFO	Listening on 127.0.0.1:60688
+1703556048874	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofile2eSgOn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703556049634	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703556050164	Marionette	INFO	Listening on port 60694
+Read port: 60694
+WebDriver BiDi listening on ws://127.0.0.1:60689
+1703556050374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60689/devtools/browser/37823415-f359-43e6-bf2a-668355e57c3a
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/yp/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i3rT4/ya/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HooJxu7UXtsDGrDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRhZ2cEKPszo09trP9GkQMJKBixmAJVW7raF_9mOhP1cU3MsXTGRHy_p3fQqGIcvEvzAQ2N8FTppl2yYoWQHJfEFbiE6Zb_2wqUVfrbvONlRHEwX6no0xpgJTuL.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1703556079681	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703556094121	Marionette	INFO	Stopped listening on port 60694
+1703795023137	geckodriver	INFO	Listening on 127.0.0.1:52773
+1703795023672	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/37/hwh264fj58lc538vjnh8knfm0000gn/T/rust_mozprofileOJwcRt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703795024467	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1703795025073	Marionette	INFO	Listening on port 52781
+Read port: 52781
+WebDriver BiDi listening on ws://127.0.0.1:52774
+1703795025292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52774/devtools/browser/a51b883d-befe-4be8-b275-9c6901a9f355
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ihVQ4/y8/l/en_US/Ch_YChJCKQS.js?_nc_x=Ij3Wp8lg5Kz, line 22: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iEUX4/yb/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HoI5TmEX14dGErDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRoV-sOyJICzw9trP9GkQMJKBixmAJVW7ra-cJtH46b_GgMsXTGRHy_p3PhgLLRbXfj4YoWQHJfEFbiE6Zb_2wqUVff57k7RW4peT6no0xpgJTuLGJj9tovapz9qLkJWqHQxoxBH7rryjXYkA.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3iEUX4/yb/l/makehaste_jhash/7Zue2Nwo-2nYnlwYgCekLA-IeA6C_EEYFB501rtzjiCdLim_-F2NCC55l7Jg7-zA7AVBAjozEqTDXFL44W774fyx_FhxBHVe8HoI5TmEX14dGErDC3x0Dt9rL5Z57hebcJOwukrTqWPNqINJ_SFDg-tHXRoV-sOyJICzw9trP9GkQMJKBixmAJVW7ra-cJtH46b_GgMsXTGRHy_p3PhgLLRbXfj4YoWQHJfEFbiE6Zb_2wqUVff57k7RW4peT6no0xpgJTuLGJj9tovapz9qLkJWqHQxoxBH7rryjXYkA.js?_nc_x=oQ3o7sk-cOp, line 413: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i9GY4/y2/l/makehaste_jhash/WrK9Dp5J81JnOrbJNNrEC9FplDhwcA_xMn8ReVJO9XfpKvNozPcv0rqVcaITr7ly4Qd9lrNWyQ1mUtlrfLKoTUCz8QzCmgjCKdL.js?_nc_x=oQ3o7sk-cOp, line 235: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703795054492	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3784: TypeError: this._windows[aWindow.__SSi] is undefined
+1703795255435	Marionette	INFO	Stopped listening on port 52781
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
