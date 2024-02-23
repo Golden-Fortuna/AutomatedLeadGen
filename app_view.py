@@ -179,10 +179,22 @@ class AppView:
 
     def start_automation(self):
         platform = self.platforms_dropdown.get()
+        
+        test = False
+        
+        
+        
+        
+        
         email = self.email_text.get("1.0", tk.END).strip()
         password = self.password_text.get("1.0", tk.END).strip()
         message_title = self.messages_dropdown.get()
         messages = self.viewmodel.get_messages()
+        
+        if test:
+            self.viewmodel.start_automation("Facebook Marketplace", "maribellas.events@hotmail.com", "Selena21!", "testing", "testing")
+            return
+        
         if all([platform, email, password, message_title]) and message_title in messages:
             message_content = messages[message_title][0]
             self.viewmodel.start_automation(platform, email, password, message_title, message_content)
