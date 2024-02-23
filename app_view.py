@@ -12,6 +12,23 @@ class AppView:
         self.master = master
         self.viewmodel = AppViewModel()
         master.title("Automated Lead Generation")
+
+        # Get screen width and height
+        screen_width = master.winfo_screenwidth()
+        screen_height = master.winfo_screenheight()
+
+        # Set window size to a percentage of the screen size
+        window_width = int(screen_width * 0.8)  # 80% of the screen width
+        window_height = int(screen_height * 0.8)  # 80% of the screen height
+
+        # Calculate position to center the window on the screen
+        x_position = (screen_width // 2) - (window_width // 2)
+        y_position = (screen_height // 2) - (window_height // 2)
+
+        # Set the window size and position
+        master.geometry(f'{window_width}x{window_height}+{x_position}+{y_position}')
+
+        # Configure styles and tabs as before...
         master.configure(bg='#2C2F33')
         style = ttk.Style()
         style.theme_use('alt')
