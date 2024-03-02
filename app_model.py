@@ -14,7 +14,13 @@ import pyautogui
 import pyperclip
 import os
 from enum import Enum
-FILE_PATH = "messages.txt"
+
+# Get the absolute path of the current script
+script_path = os.path.abspath(__file__)
+
+# Get the directory of the current script
+script_dir = os.path.dirname(script_path)
+FILE_PATH = os.path.join(script_dir, "messages.txt")
 
 class Platform(Enum):
     FB = "Facebook Marketplace"
