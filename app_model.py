@@ -20,7 +20,9 @@ script_path = os.path.abspath(__file__)
 
 # Get the directory of the current script
 script_dir = os.path.dirname(script_path)
-FILE_PATH = os.path.join(script_dir, "messages.txt")
+MESSAGES_FILE_PATH = os.path.join(script_dir, "messages.txt")
+BLACKLIST_FILE_PATH = os.path.join(script_dir, "blacklist.txt")
+
 
 class Platform(Enum):
     FB = "Facebook Marketplace"
@@ -52,7 +54,7 @@ class AutomationModel:
     def update_messages(self, messages):
         try:
             json_data = json.dumps(messages)
-            with open('messages.txt', 'w') as file:
+            with open(MESSAGES_FILE_PATH, 'w') as file:
                 file.write(json_data)
         except Exception as e:
             print(f"An error occurred: {e}")
@@ -69,7 +71,7 @@ class AutomationModel:
     
     # Load blacklist
     def load_blacklist(self):
-        blacklist_path = "blacklist.txt"
+        blacklist_path = BLACKLIST_FILE_PATH
         if os.path.exists(blacklist_path):
             with open(blacklist_path, 'r') as file:
                 return set(line.strip() for line in file)
@@ -84,7 +86,7 @@ class AutomationModel:
     def add_to_blacklist(self, name):
         if name not in self.blacklist:
             self.blacklist.add(name)
-            with open("blacklist.txt", 'a') as file:
+            with open(BLACKLIST_FILE_PATH, 'a') as file:
                 file.write(f"{name}\n")
         
     # Business Logic
