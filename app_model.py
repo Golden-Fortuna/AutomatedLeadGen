@@ -40,8 +40,8 @@ class AutomationModel:
     
     def get_messages(self):
         try:
-            if os.path.exists(FILE_PATH):
-                with open(FILE_PATH, 'r') as file:
+            if os.path.exists(MESSAGES_FILE_PATH):
+                with open(MESSAGES_FILE_PATH, 'r') as file:
                     json_data = file.read()
                     data = json.loads(json_data)
                     return data
