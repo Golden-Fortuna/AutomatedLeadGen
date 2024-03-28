@@ -1,3 +1,4 @@
+import traceback
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -49,6 +50,7 @@ class AutomationModel:
                 return {}
         except Exception as e:
             print(f"An error occurred: {e}")
+            traceback.print_exc()
             return {}
 
     def update_messages(self, messages):
@@ -58,6 +60,7 @@ class AutomationModel:
                 file.write(json_data)
         except Exception as e:
             print(f"An error occurred: {e}")
+            traceback.print_exc()
 
     def increment_message_responses(self,title):
         messages = self.get_messages()
@@ -103,6 +106,7 @@ class AutomationModel:
             login_button.click()
         except Exception as e:
             print("Error encountered:", e)
+            traceback.print_exc()
 
     def open_rentals(self, driver):
         try:
@@ -111,6 +115,7 @@ class AutomationModel:
             search_box.send_keys(Keys.ENTER)
         except Exception as e: 
             print("Error encountered:", e)
+            traceback.print_exc()
 
     def close_chats(self, driver):
         # Check if message popped up. Close it if so
@@ -140,7 +145,7 @@ class AutomationModel:
             end_of_results_text = "Results from outside your search"
             listings = []
             found_end_of_results = False
-            max_listings = 360  # Maximum number of listings to load. Make a cap to stop infinite scroll
+            max_listings = 10  # Maximum number of listings to load. Make a cap to stop infinite scroll
             print("Starting search")
             last_count = 0
 
@@ -259,6 +264,7 @@ class AutomationModel:
                 self.close_listing(driver)
         except Exception as e:
             print("Error encountered:", e)
+            traceback.print_exc()
 
     def fb_automation(self, driver, email, password, title, message):
         self.fb_login(driver,email, password)

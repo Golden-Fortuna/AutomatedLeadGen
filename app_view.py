@@ -182,10 +182,6 @@ class AppView:
         
         test = False
         
-        
-        
-        
-        
         email = self.email_text.get("1.0", tk.END).strip()
         password = self.password_text.get("1.0", tk.END).strip()
         message_title = self.messages_dropdown.get()
