@@ -145,7 +145,7 @@ class AutomationModel:
             end_of_results_text = "Results from outside your search"
             listings = []
             found_end_of_results = False
-            max_listings = 10  # Maximum number of listings to load. Make a cap to stop infinite scroll
+            max_listings = 400  # Maximum number of listings to load. Make a cap to stop infinite scroll
             print("Starting search")
             last_count = 0
 
