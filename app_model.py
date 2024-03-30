@@ -216,7 +216,7 @@ class AutomationModel:
                     try:
                         
                         # XPath to find all <textarea> elements containing the specified text
-                        xpath = "//textarea[text()='Hi, is this available?']"
+                        xpath = "//textarea[contains(., 'available?')]"
 
                         # Wait for at least two such elements to be present
                         elements = WebDriverWait(driver, 10).until(
