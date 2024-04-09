@@ -1,3 +1,4 @@
+import random
 import traceback
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -22,6 +23,7 @@ script_path = os.path.abspath(__file__)
 # Get the directory of the current script
 script_dir = os.path.dirname(script_path)
 MESSAGES_FILE_PATH = os.path.join(script_dir, "messages.txt")
+MESSAGE_STARTS_FILE_PATH = os.path.join(script_dir, "message_starts.txt")
 BLACKLIST_FILE_PATH = os.path.join(script_dir, "blacklist.txt")
 
 
@@ -91,6 +93,15 @@ class AutomationModel:
             self.blacklist.add(name)
             with open(BLACKLIST_FILE_PATH, 'a') as file:
                 file.write(f"{name}\n")
+    
+    def load_message_starts(self):
+        try:
+            with open(MESSAGE_STARTS_FILE_PATH, 'r') as file:
+                lines = file.readlines()
+                return [line.strip() for line in lines]
+        except FileNotFoundError:
+            print(f"Error: File '{MESSAGE_STARTS_FILE_PATH}' not found.")
+            return []
         
     # Business Logic
     def fb_login(self, driver, email, password):
@@ -138,6 +149,7 @@ class AutomationModel:
         
         close_button.click()
         return
+
 
     def send_msgs(self, driver, title, message):
         try:
@@ -204,6 +216,10 @@ class AutomationModel:
 
                 seller_name = seller_name_parent_element.accessible_name
                 
+                message_start = random.choice(self.load_message_starts()).replace("$name", seller_name.split(" ")[0])
+                
+                combined_message = message_start + "\n" + message
+                
                 if self.is_blacklisted(seller_name):
                     print(f"Skipping blacklisted seller: {seller_name}")
                     self.close_listing(driver)
@@ -238,7 +254,7 @@ class AutomationModel:
   
                     time.sleep(3)
                     self.close_chats(driver)
-                    textarea.send_keys(message)
+                    textarea.send_keys(combined_message)
                     
                     # Find the Send button
                     xpath = "//span[text()='Send']"
