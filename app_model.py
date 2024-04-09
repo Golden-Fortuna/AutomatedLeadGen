@@ -218,7 +218,7 @@ class AutomationModel:
                 
                 message_start = random.choice(self.load_message_starts()).replace("$name", seller_name.split(" ")[0])
                 
-                combined_message = message_start + "\n" + message
+                combined_message = message_start + "\n\n" + message
                 
                 if self.is_blacklisted(seller_name):
                     print(f"Skipping blacklisted seller: {seller_name}")
